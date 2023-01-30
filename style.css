@@ -107,8 +107,6 @@ section#papel{
 
 section.video{ 
     padding: 0;
-
-    margin: -80px 0 50px 0 ;
 }
 
 .video h1 {
@@ -119,25 +117,24 @@ section.video{
 }
 
 div.player {
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
+    margin: 0px;
 
-   
+    padding-bottom: 56%;
+
+    position: relative;
 }
 
-/* .player > iframe {
-    display: inline-block;
-
+.player > iframe {
     position: absolute;
 
     padding: 0;
 
+    top: 5%;
     left: 5%;
 
     width: 90%;
     height: 90%;
-} */
+}
 
 footer {
     max-width: 100vw;
