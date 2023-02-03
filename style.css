@@ -75,6 +75,10 @@ section.normal {
     color: #000000;
 }
 
+section#ultima {
+    padding-bottom: 2em;
+}
+
 section.imagem {
     background-color: #2f2f2f;
     color: #ffffff;
